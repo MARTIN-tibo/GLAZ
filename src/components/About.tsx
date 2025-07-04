@@ -59,7 +59,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="relative">
               <img
-                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
+                src="https://images.pexels.com/photos/5665663/pexels-photo-5665663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Intérieur du restaurant"
                 loading="lazy"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
@@ -68,13 +68,13 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
+                src="https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Préparation des desserts"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
               />
               <img
-                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
+                src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Pâtes fraîches"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
