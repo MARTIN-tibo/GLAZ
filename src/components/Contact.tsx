@@ -143,8 +143,13 @@ const Contact = () => {
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-gray-800 mb-2">🚇 Transports</h4>
                   <p className="text-sm text-gray-600">
-                    <strong>Métro :</strong> Convention (L12) - 2 min à pied<br />
-                    <strong>Bus :</strong> Lignes 39, 70, 89<br />
+                    <strong>Métro :</strong> Trinité – D'Estienne d'Orves (L12) ~2&nbsp;min à pied<br />
+                    Place de Clichy (L2 &amp; L13) ~6&nbsp;min à pied<br />
+                    Europe (L3) ~9&nbsp;min à pied<br />
+                    <strong>Bus :</strong> Trinité (21, 68, N01) ~3&nbsp;min à pied<br />
+                    La Bruyère (74) ~5&nbsp;min à pied<br />
+                    Place de Clichy (21, 30, 54, 68, 74, 80…) ~6&nbsp;min à pied<br />
+                    Bucarest (diverses lignes) ~6&nbsp;min à pied<br />
                     <strong>Vélib :</strong> Station à 50m
                   </p>
                 </div>
