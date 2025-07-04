@@ -7,6 +7,7 @@ const reviews = [
     rating: 5,
     comment:
       'Petit restaurant avec une jolie déco mais surtout un sans faute dans l\'assiette : des ingrédients frais préparés avec justesse. Nous nous sommes régalés ! Carte des vins étudiée qui privilégie les petits domaines avec des bouteilles nature et en biodynamie. Service sincèrement gentil. Nous reviendrons !'
+
   },
   {
     name: 'Utilisateur TheFork 2',
@@ -19,6 +20,7 @@ const reviews = [
     rating: 5,
     comment:
       'de belles assiettes travaillées avec goût pour un résultat particulièrement remarquable . Autre atout de ce restaurant : des prix contenus ! en résumé : très bon , très goûteux et pas cher…'
+
   }
 ];
 
