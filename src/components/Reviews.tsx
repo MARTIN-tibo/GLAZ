@@ -3,22 +3,22 @@ import { Star } from 'lucide-react';
 
 const reviews = [
   {
-    name: 'Marie L.',
+    name: 'Clara R.',
     rating: 5,
     comment:
-      "Un vrai goût d'Italie au coeur de Paris ! Les pâtes sont incroyables et l'accueil chaleureux."
+      'Une superbe adresse ! Cuisine fine, service impeccable, et très bons vins.'
   },
   {
-    name: 'Lucas P.',
+    name: 'Yann B.',
     rating: 5,
     comment:
-      'Pizza délicieuse et ambiance conviviale, je recommande vivement cette trattoria.'
+      'Une belle découverte dans le 5e, plats originaux et délicieux.'
   },
   {
-    name: 'Sophie D.',
+    name: 'Emma T.',
     rating: 4,
     comment:
-      "Desserts maison excellents, service attentionné. On reviendra bientôt !"
+      "Ambiance cosy et service aux petits soins. On reviendra !"
   }
 ];
 
@@ -30,9 +30,9 @@ const Reviews = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Avis Google
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-red-700 to-yellow-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Découvrez ce que nos premiers clients pensent de La Padellina
+            Découvrez ce que nos premiers clients pensent de Glaz
           </p>
         </div>
 
