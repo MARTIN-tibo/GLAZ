@@ -68,7 +68,7 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
                 alt="Préparation des desserts"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
