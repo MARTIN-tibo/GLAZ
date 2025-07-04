@@ -6,17 +6,17 @@ const Hero = () => {
 
   const slides = [
     {
-      image: 'https://images.pexels.com/photos/672919/pexels-photo-672919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png',
       title: 'Cuisine française inventive',
       subtitle: 'Produits frais et de saison'
     },
     {
-      image: 'https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png',
       title: 'Accords mets & vins',
       subtitle: 'Sélection de vignerons passionnés'
     },
     {
-      image: 'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png',
       title: 'Desserts gourmets',
       subtitle: 'Douceurs sucrées faites maison'
     }
