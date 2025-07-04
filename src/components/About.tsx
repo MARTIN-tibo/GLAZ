@@ -59,7 +59,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/5665663/pexels-photo-5665663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
                 alt="Intérieur du restaurant"
                 loading="lazy"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
@@ -74,7 +74,7 @@ const About = () => {
                 className="w-full h-40 object-cover rounded-xl shadow-md"
               />
               <img
-                src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png"
                 alt="Pâtes fraîches"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
