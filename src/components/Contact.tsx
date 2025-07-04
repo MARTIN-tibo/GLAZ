@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -73,17 +73,11 @@ const Contact = () => {
               <div className="mt-8 pt-6 border-t border-gray-200">
                 <h4 className="font-semibold text-gray-800 mb-4">Suivez-nous</h4>
                 <div className="flex space-x-4">
-                  <a 
-                    href="#" 
+                  <a
+                    href="https://www.instagram.com/glaz.restaurant?igsh=eXE0aDYxcHY4azJt"
                     className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full hover:scale-110 transition-transform duration-200"
                   >
                     <Instagram className="w-5 h-5" />
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-blue-600 text-white p-3 rounded-full hover:scale-110 transition-transform duration-200"
-                  >
-                    <Facebook className="w-5 h-5" />
                   </a>
                 </div>
                 <p className="text-sm text-gray-500 mt-2">
@@ -150,7 +144,7 @@ const Contact = () => {
                     La Bruyère (74) ~5&nbsp;min à pied<br />
                     Place de Clichy (21, 30, 54, 68, 74, 80…) ~6&nbsp;min à pied<br />
                     Bucarest (diverses lignes) ~6&nbsp;min à pied<br />
-                    <strong>Vélib :</strong> Station à 50m
+                    <strong>Vélib :</strong> Station à 20m
                   </p>
                 </div>
                 
