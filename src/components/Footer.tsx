@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import { Heart, MapPin, Phone, Mail, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,19 +22,12 @@ const Footer = () => {
               dans un cadre chic et décontracté.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="#" 
+              <a
+                href="https://www.instagram.com/glaz.restaurant?igsh=eXE0aDYxcHY4azJt"
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full hover:scale-110 transition-transform duration-200"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a 
-                href="#" 
-                className="bg-blue-600 text-white p-3 rounded-full hover:scale-110 transition-transform duration-200"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>

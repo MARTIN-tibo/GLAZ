@@ -3,22 +3,22 @@ import { Star } from 'lucide-react';
 
 const reviews = [
   {
-    name: 'Clara R.',
+    name: 'Utilisateur TheFork 1',
     rating: 5,
     comment:
-      'Une superbe adresse ! Cuisine fine, service impeccable, et très bons vins.'
+      '"Petit restaurant avec une jolie déco mais surtout un sans faute dans l\'assiette : des ingrédients frais préparés avec justesse. Nous nous sommes régalés ! Carte des vins étudiée qui privilégie les petits domaines avec des bouteilles nature et en biodynamie. Service sincèrement gentil. Nous reviendrons !"'
   },
   {
-    name: 'Yann B.',
+    name: 'Utilisateur TheFork 2',
     rating: 5,
     comment:
-      'Une belle découverte dans le 5e, plats originaux et délicieux.'
+      '"Je recommande ce restaurant : la carte est variée, les plats sont beaux et délicieux, et le service est à la fois sympathique et professionnel !"'
   },
   {
-    name: 'Emma T.',
-    rating: 4,
+    name: 'Utilisateur TheFork 3',
+    rating: 5,
     comment:
-      "Ambiance cosy et service aux petits soins. On reviendra !"
+      '"de belles assiettes travaillées avec goût pour un résultat particulièrement remarquable . Autre atout de ce restaurant : des prix contenus ! en résumé : très bon , très goûteux et pas cher…"'
   }
 ];
 
@@ -28,7 +28,7 @@ const Reviews = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Avis Google
+            Avis TheFork
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
