@@ -9,9 +9,9 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Notre Histoire
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-red-700 to-yellow-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Une trattoria familiale où tradition et passion se retrouvent dans l'assiette
+            Glaz est une pépite culinaire nichée à Paris, offrant une expérience gastronomique raffinée et conviviale
           </p>
         </div>
 
@@ -23,38 +23,34 @@ const About = () => {
                 L'authenticité avant tout
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Nichée au cœur du 15e arrondissement de Paris, La Padellina vous invite à découvrir 
-                l'Italie à travers une cuisine authentique, généreuse et faite maison. Notre chef, 
-                originaire de Naples, perpétue les traditions culinaires transmises de génération en génération.
+                Situé rue de Clichy, Glaz propose une cuisine française moderne inspirée par les produits locaux et de saison.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Chaque plat raconte une histoire, chaque saveur évoque un souvenir. De nos pizzas 
-                cuites au four à bois à nos pâtes fraîches préparées quotidiennement, nous mettons 
-                un point d'honneur à respecter les recettes originales de nos ancêtres.
+                Chaque assiette est pensée comme une création gourmande, accompagnée d'une sélection soignée de vins.
               </p>
             </div>
 
             {/* Features Grid */}
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="bg-red-50 p-6 rounded-xl">
-                <Heart className="w-8 h-8 text-red-700 mb-3" />
-                <h4 className="font-bold text-gray-800 mb-2">Passion Familiale</h4>
-                <p className="text-sm text-gray-600">Recettes transmises depuis 3 générations</p>
-              </div>
-              <div className="bg-green-50 p-6 rounded-xl">
-                <ChefHat className="w-8 h-8 text-green-700 mb-3" />
-                <h4 className="font-bold text-gray-800 mb-2">Fait Maison</h4>
-                <p className="text-sm text-gray-600">Pâtes fraîches et sauces préparées chaque jour</p>
-              </div>
-              <div className="bg-yellow-50 p-6 rounded-xl">
-                <Users className="w-8 h-8 text-yellow-700 mb-3" />
-                <h4 className="font-bold text-gray-800 mb-2">Ambiance Conviviale</h4>
-                <p className="text-sm text-gray-600">Un accueil chaleureux dans un cadre authentique</p>
-              </div>
               <div className="bg-blue-50 p-6 rounded-xl">
-                <Award className="w-8 h-8 text-blue-700 mb-3" />
-                <h4 className="font-bold text-gray-800 mb-2">Produits d'Exception</h4>
-                <p className="text-sm text-gray-600">Ingrédients sélectionnés directement d'Italie</p>
+                <Heart className="w-8 h-8 text-blue-700 mb-3" />
+                <h4 className="font-bold text-gray-800 mb-2">Passion Culinaire</h4>
+                <p className="text-sm text-gray-600">Créations inspirées par les saisons</p>
+              </div>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <ChefHat className="w-8 h-8 text-amber-700 mb-3" />
+                <h4 className="font-bold text-gray-800 mb-2">Produits Locaux</h4>
+                <p className="text-sm text-gray-600">Sélection des meilleurs producteurs</p>
+              </div>
+              <div className="bg-slate-50 p-6 rounded-xl">
+                <Users className="w-8 h-8 text-slate-700 mb-3" />
+                <h4 className="font-bold text-gray-800 mb-2">Ambiance Conviviale</h4>
+                <p className="text-sm text-gray-600">Un accueil chaleureux et décontracté</p>
+              </div>
+              <div className="bg-emerald-50 p-6 rounded-xl">
+                <Award className="w-8 h-8 text-emerald-700 mb-3" />
+                <h4 className="font-bold text-gray-800 mb-2">Accords Mets & Vins</h4>
+                <p className="text-sm text-gray-600">Suggestion de vins pour chaque plat</p>
               </div>
             </div>
           </div>
@@ -63,7 +59,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/5665663/pexels-photo-5665663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Intérieur du restaurant"
                 loading="lazy"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
@@ -72,13 +68,13 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Préparation des desserts"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
               />
               <img
-                src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Pâtes fraîches"
                 loading="lazy"
                 className="w-full h-40 object-cover rounded-xl shadow-md"
