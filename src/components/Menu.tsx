@@ -5,26 +5,48 @@ const Menu = () => {
   const menuItems = [
     {
       category: 'Entrées',
-      image: 'https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image:
+        'https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       items: [
-        { name: 'Oeuf parfait', price: '9€', description: 'Émulsion de topinambour' },
-        { name: 'Gravlax de saumon', price: '12€', description: 'Crème d\'aneth fraîche' }
+        { name: 'Œuf meurette revisité', price: '7€' },
+        { name: 'Asperges blanches, cresson, agrumes', price: '9€' },
+        {
+          name: 'Velouté de petits pois, lard fumé et straciatella',
+          price: '11€'
+        },
+        { name: 'Raviolo langoustine et poireaux', price: '14€' },
+        { name: 'Carpaccio de la pêche du jour', price: '15€' }
       ]
     },
     {
       category: 'Plats',
-      image: 'https://images.pexels.com/photos/3296275/pexels-photo-3296275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image:
+        'https://images.pexels.com/photos/3296275/pexels-photo-3296275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       items: [
-        { name: 'Cabillaud rôti', price: '22€', description: 'Mousseline de panais, beurre blanc' },
-        { name: 'Filet de canette', price: '24€', description: 'Purée maison, jus réduit' }
+        { name: 'Ballotine de poulet basse température', price: '21€' },
+        {
+          name: 'Gnocchis de patate douce, émulsion vin jaune et cancoillotte',
+          price: '23€'
+        },
+        { name: 'Joue de bœuf confite 10 heures', price: '25€' },
+        { name: 'Pêche du jour rôtie au beurre', price: '29€' }
       ]
     },
     {
       category: 'Desserts',
-      image: 'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image:
+        'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       items: [
-        { name: 'Fondant chocolat', price: '8€', description: 'Cœur coulant' },
-        { name: 'Tarte fine aux pommes', price: '7€', description: 'Pommes caramélisées' }
+        { name: 'Crème brulée au sésame noir', price: '8€' },
+        { name: 'Mille-feuilles vanille et noix de pécan', price: '12€' },
+        {
+          name: 'Pavlova ananas, verveine et citron vert',
+          price: '14€'
+        },
+        {
+          name: 'Tartelette chocolat noir et poire, ganache montée fève de tonka',
+          price: '14€'
+        }
       ]
     }
   ];
