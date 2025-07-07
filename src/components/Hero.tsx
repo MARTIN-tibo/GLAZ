@@ -11,12 +11,12 @@ const Hero = () => {
       subtitle: 'Produits frais et de saison'
     },
     {
-      image: 'https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png',
+      image: 'https://i.postimg.cc/c4PN2Rtv/Tomate-burrata-et-oeuf-meurette-horizon.jpg',
       title: 'Accords mets & vins',
       subtitle: 'Sélection de vignerons passionnés'
     },
     {
-      image: 'https://i.postimg.cc/2SQXSVL9/share-5705120259202360298.png',
+      image: 'https://i.postimg.cc/MKnS9PHk/asssortiment-bar-terrine-asperge-meurette.jpg',
       title: 'Desserts gourmets',
       subtitle: 'Douceurs sucrées faites maison'
     }
