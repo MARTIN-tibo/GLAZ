@@ -62,9 +62,9 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-center text-center text-white px-6">
         <div className="max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-shadow-lg">
-            Bienvenue chez
-            <span className="block text-6xl md:text-8xl text-amber-300 font-serif italic">
-              Glaz
+            Bienvenue au
+            <span className="block text-6xl md:text-8xl text-white">
+              glaz
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-shadow">
