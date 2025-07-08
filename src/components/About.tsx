@@ -9,7 +9,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Notre Histoire
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-glaz to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Glaz est une pépite culinaire nichée à Paris, offrant une expérience gastronomique raffinée et conviviale
           </p>
@@ -32,8 +32,8 @@ const About = () => {
 
             {/* Features Grid */}
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <Heart className="w-8 h-8 text-blue-700 mb-3" />
+              <div className="bg-glaz p-6 rounded-xl">
+                <Heart className="w-8 h-8 text-glaz mb-3" />
                 <h4 className="font-bold text-gray-800 mb-2">Passion Culinaire</h4>
                 <p className="text-sm text-gray-600">Créations inspirées par les saisons</p>
               </div>

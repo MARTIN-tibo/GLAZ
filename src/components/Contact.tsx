@@ -9,7 +9,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Contact & Accès
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-glaz to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Retrouvez-nous au cœur du 9e arrondissement de Paris
           </p>
@@ -25,7 +25,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <MapPin className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 text-glaz mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Adresse</h4>
                     <p className="text-gray-600">
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Phone className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />
+                  <Phone className="w-6 h-6 text-glaz mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Téléphone</h4>
                     <p className="text-gray-600">01 45 78 90 12</p>
@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Mail className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />
+                  <Mail className="w-6 h-6 text-glaz mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
                     <p className="text-gray-600">contact@glaz.paris</p>
@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <Clock className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />
+                  <Clock className="w-6 h-6 text-glaz mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Horaires</h4>
                     <div className="text-gray-600 space-y-1">
@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             {/* Call to Action */}
-            <div className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl p-8">
+            <div className="bg-gradient-to-r from-glaz to-glaz text-white rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-4">
                 Une question ? Un événement privé ?
               </h3>
@@ -98,13 +98,13 @@ const Contact = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="tel:0145789012"
-                  className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
+                  className="bg-white text-glaz hover:bg-gray-100 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Nous Appeler
                 </a>
                 <a
                   href="mailto:contact@glaz.paris"
-                  className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
+                  className="bg-transparent border-2 border-white hover:bg-white hover:text-glaz px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Nous Écrire
                 </a>

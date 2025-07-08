@@ -32,7 +32,7 @@ const Reviews = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Avis TheFork
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-glaz to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Découvrez ce que nos premiers clients pensent de Glaz
           </p>

@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-gradient-to-r from-blue-700 to-blue-800 text-white p-2 rounded-full">
+              <div className="bg-gradient-to-r from-glaz to-glaz text-white p-2 rounded-full">
                 <div className="w-6 h-6 flex items-center justify-center font-bold text-sm">G</div>
               </div>
               <div>
@@ -84,14 +84,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-glaz mt-0.5 flex-shrink-0" />
                 <div className="text-sm">
                   <p className="text-gray-300">56 bis, rue de Clichy</p>
                   <p className="text-gray-300">75009 Paris</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-glaz flex-shrink-0" />
                 <a 
                   href="tel:0145789012" 
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
@@ -100,7 +100,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-glaz flex-shrink-0" />
                 <a
                   href="mailto:contact@glaz.paris"
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
@@ -115,7 +115,7 @@ const Footer = () => {
               <div className="text-sm text-gray-300 space-y-1">
                 <p>Lun - Ven : 12h00-14h30 / 19h00-22h30</p>
                 <p>Sam : 19h00 - 22h30</p>
-                <p className="text-blue-400">Dimanche : fermé</p>
+                <p className="text-glaz">Dimanche : fermé</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 text-sm text-gray-400">
               <span>© 2024 Glaz. Tous droits réservés.</span>
-              <Heart className="w-4 h-4 text-blue-400" />
+              <Heart className="w-4 h-4 text-glaz" />
               <span>Fait avec amour à Paris</span>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">

@@ -35,7 +35,7 @@ const Reservation = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Réserver une Table
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-700 to-amber-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-glaz to-amber-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Réservez votre table en ligne et profitez d'une cuisine moderne et conviviale
           </p>
@@ -69,7 +69,7 @@ const Reservation = () => {
                         required
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                         placeholder="Votre nom"
                       />
                     </div>
@@ -84,7 +84,7 @@ const Reservation = () => {
                         required
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                         placeholder="votre@email.com"
                       />
                     </div>
@@ -100,7 +100,7 @@ const Reservation = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                       placeholder="01 23 45 67 89"
                     />
                   </div>
@@ -117,7 +117,7 @@ const Reservation = () => {
                         required
                         value={formData.date}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                       />
                     </div>
                     <div>
@@ -130,7 +130,7 @@ const Reservation = () => {
                         required
                         value={formData.time}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                       >
                         <option value="">Choisir</option>
                         <option value="19:00">19:00</option>
@@ -152,7 +152,7 @@ const Reservation = () => {
                         required
                         value={formData.guests}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                       >
                         {[1,2,3,4,5,6,7,8].map(num => (
                           <option key={num} value={num}>{num} {num === 1 ? 'personne' : 'personnes'}</option>
@@ -171,14 +171,14 @@ const Reservation = () => {
                       rows={4}
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-glaz focus:border-transparent transition-all duration-200"
                       placeholder="Demandes spéciales, allergies, etc."
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white py-4 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    className="w-full bg-gradient-to-r from-glaz to-glaz hover:from-glaz hover:to-glaz text-white py-4 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     Confirmer la Réservation
                   </button>
@@ -195,7 +195,7 @@ const Reservation = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <Calendar className="w-6 h-6 text-blue-700 mt-1" />
+                    <Calendar className="w-6 h-6 text-glaz mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-800">Horaires d'ouverture</h4>
                       <p className="text-gray-600">Lun - Ven : 12h00-14h30 / 19h00-22h30</p>
@@ -205,7 +205,7 @@ const Reservation = () => {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <Clock className="w-6 h-6 text-blue-700 mt-1" />
+                    <Clock className="w-6 h-6 text-glaz mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-800">Service</h4>
                       <p className="text-gray-600">Dernière commande à 22h00</p>
@@ -214,7 +214,7 @@ const Reservation = () => {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <Users className="w-6 h-6 text-blue-700 mt-1" />
+                    <Users className="w-6 h-6 text-glaz mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-800">Groupes</h4>
                       <p className="text-gray-600">Jusqu'à 12 personnes</p>
