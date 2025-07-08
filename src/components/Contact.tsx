@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             {/* Call to Action */}
-            <div className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl p-8">
+            <div className="bg-[#0080ff] text-white rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-4">
                 Une question ? Un événement privé ?
               </h3>
@@ -96,15 +96,15 @@ const Contact = () => {
                 anniversaires ou événements spéciaux.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
+                <a
                   href="tel:0145789012"
-                  className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
+                  className="bg-[#0080ff] text-white hover:bg-[#0080ff]/90 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Nous Appeler
                 </a>
                 <a
                   href="mailto:contact@glaz.paris"
-                  className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
+                  className="bg-[#0080ff] text-white hover:bg-[#0080ff]/90 px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Nous Écrire
                 </a>

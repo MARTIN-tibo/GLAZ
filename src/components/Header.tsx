@@ -18,11 +18,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-blue-700 to-blue-800 text-white p-2 rounded-full">
-              <div className="w-6 h-6 flex items-center justify-center font-bold text-sm">G</div>
+            <div className="bg-[#0080ff] text-white p-2 rounded-full">
+              <div className="w-6 h-6 flex items-center justify-center font-bold text-sm">g</div>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">Glaz</h1>
+              <h1 className="text-2xl font-bold text-gray-800">glaz</h1>
               <p className="text-xs text-gray-600 -mt-1">Cuisine française moderne</p>
             </div>
           </div>

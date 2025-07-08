@@ -178,7 +178,7 @@ const Reservation = () => {
 
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-800 hover:to-blue-900 text-white py-4 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    className="w-full bg-[#0080ff] hover:bg-[#0080ff]/90 text-white py-4 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     Confirmer la Réservation
                   </button>
