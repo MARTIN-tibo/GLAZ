@@ -97,7 +97,7 @@ const Menu = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl p-12">
+        <div className="text-center bg-[#0080ff] text-white rounded-2xl p-12">
           <Utensils className="w-16 h-16 mx-auto mb-6 opacity-80" />
           <h3 className="text-3xl font-bold mb-4">
             Envie de découvrir toute notre carte ?
@@ -106,13 +106,13 @@ const Menu = () => {
             Consultez notre menu complet avec tous nos plats, vins et desserts
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-700 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+            <button className="bg-[#0080ff] hover:bg-[#0080ff]/90 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
               <FileText className="w-5 h-5" />
               <span>Télécharger la Carte (PDF)</span>
             </button>
-            <button 
+            <button
               onClick={() => document.getElementById('reservation')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
+              className="bg-[#0080ff] hover:bg-[#0080ff]/90 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
             >
               <Star className="w-5 h-5" />
               <span>Réserver Maintenant</span>
